@@ -12,7 +12,7 @@ const Slider = () => {
         else setCurrentSlide(currentSlide-1);
         
     }
-
+    
     const nextSlide = () => {
         if(currentSlide+1>2)setCurrentSlide(0);
         else setCurrentSlide(currentSlide+1);
@@ -40,6 +40,7 @@ const Slider = () => {
                 </div>
             </div>
             <div></div>
+            
         </div>
     )
 }

@@ -9,6 +9,7 @@ import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import "./App.scss"
+
 const Layout = () => {
   return(
     <div className="app">
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
     ]
   }
 ])
+
 function App() {
   return (
     <div>
