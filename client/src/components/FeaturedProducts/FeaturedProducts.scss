@@ -1,5 +1,5 @@
 .featuredProducts {
-  margin: 100px 200px;
+  margin: 50px 100px;
 
   .top {
     display: flex;
@@ -20,7 +20,10 @@
 
   .bottom {
     display: flex;
-    justify-content: center;
+    top: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
     gap: 50px;
   }
 }
